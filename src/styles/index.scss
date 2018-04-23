@@ -1,0 +1,21 @@
+/* LIBS */
+@import 'libs/vintage-reset-normalize';
+
+/* PARTIALS */
+@import 'partials/mixins';
+@import 'partials/variables';
+@import 'partials/fonts';
+@import 'partials/helpers';
+@import 'partials/keyframes';
+@import 'partials/svg';
+@import "partials/header";
+@import "partials/archimatika";
+@import "partials/products";
+@import "partials/start";
+@import "partials/footer";
+/* COMPONENTS */
+@import 'components/common';
+
+/* PAGES */
+@import 'pages/home';
+

@@ -1,0 +1,33 @@
+{
+	"common": {
+		"title_index": "Project name"
+	},
+	"footer": {
+		"name": "Vintage Web Production",
+		"year": "2018",
+		"url": "http://vintage.agency"
+	},
+	"nav": [
+		{
+			"name": "Home",
+			"url": "/"
+		},
+		{
+			"name": "Services",
+			"url": "/services.html"
+		},
+		{
+			"name": "About",
+			"url": "/about.html"
+		},
+		{
+			"name": "Contacts",
+			"url": "/contacts.html"
+		}
+	],
+	"data_home": {
+		"title": "Sample page",
+		"sample_title": "Happy coding!",
+		"sample_under_title": "this is sample page."
+	}
+}

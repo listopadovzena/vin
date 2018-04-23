@@ -1,0 +1,305 @@
+.logo2{
+  margin-top: 40px;
+  margin-bottom: 80px;
+  position: relative;
+  z-index: 99999;
+}
+.archimatic-box-left{
+  position: relative;
+}
+
+.archimatic-box__img2{
+  position: absolute;
+  z-index: 99999999;
+  top:640px;
+  left: 135px;
+  box-shadow: 15px 0px 51px 0px rgba(0, 0, 0, 0.15);
+}
+.archimatic-box__img1{
+  position: absolute;
+  z-index: 99999999;
+  top:320px;
+  left: 380px;
+  box-shadow: 15px 0px 51px 0px rgba(0, 0, 0, 0.15);
+}
+.archimatic-box__img{
+  position: absolute;
+  z-index: 99999999;
+  top: 0;
+  left: 135px;
+  box-shadow: 15px 0px 51px 0px rgba(0, 0, 0, 0.15);
+}
+
+.round{
+  border: 1px solid black;
+  border-radius: 50px;
+  position: absolute;
+top: -15px;
+  height: 60px;
+  left: 7px;
+  width: 60px;
+}
+.archimatic-title{
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+color: black;
+  line-height: 2.5;
+}
+.archimatic-right{
+  position: relative;
+  margin-top: 40px;
+}
+.archimatic-menu{
+  display: flex;
+  justify-content: space-between;
+}
+.a{
+  color: black;
+}
+.b{
+  color: black;
+
+}
+.c{
+  color: black;
+
+}
+.archimatic-box__build{
+
+  font-size: 12px;
+  font-family:$fontFamilyD;
+top: 95px;
+  left: 635px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2.5;
+position: absolute;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-top: 0;
+  padding-bottom:0 ;
+z-index: 9999;
+  background: $white;
+
+
+}
+.a::after{
+  content: '';
+  display: block;
+  height: 1px;
+  background: black;
+  position: absolute;
+  left: 50%;
+top:110px;
+  width: 100%;
+  transform: translateX(-50%);
+
+}
+
+.archimatic-box__number{
+  font-size: 70px;
+  font-family: $fontFamily;
+  padding-left: 640px;
+
+  text-transform: uppercase;
+  line-height: 0.429;
+  font-weight:bold ;
+  position: absolute;
+  top: 146px;
+}
+.archimatic-box__size{
+  font-size: 24px;
+  font-family: $fontFamily;
+  color: rgb(35, 35, 35);
+  line-height: 1.25;
+  padding-left: 645px;
+  margin-bottom: 20px;
+  text-align: left;
+  font-weight: bold;
+  position: absolute;
+  top: 196px;
+}
+
+.archimatic-box__build1{
+  font-size: 12px;
+  font-family: $fontFamilyD;
+  padding-top: 490px;
+  padding-left: 860px;
+
+
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2.5;
+}
+.archimatic-box__line{
+margin-top:-25px ;
+ font-size: 24px;
+  color: $lightGray;
+  padding-left: 935px;
+margin-bottom: 20px;
+}
+
+
+
+.archimatic-box__number1{
+  font-size: 70px;
+  font-family: $fontFamily;
+  padding-left: 860px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  line-height: 0.429;
+  font-weight:bold ;
+}
+.archimatic-box__size1{
+  font-size: 24px;
+  font-family: $fontFamily;
+  color: rgb(35, 35, 35);
+  line-height: 1.25;
+  text-align: left;
+  font-weight: bold;
+  padding-left: 860px;
+  margin-bottom: 20px;
+}
+
+.archimatic-box__build2{
+  font-size: 12px;
+  font-family: $fontFamilyD;
+  padding-top: 200px;
+  padding-left: 655px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2.5;
+}
+
+.archimatic-box__number2{
+  font-size: 70px;
+  font-family: $fontFamilyD;
+  padding-left: 655px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  line-height: 0.429;
+  font-weight:bold ;
+}
+.archimatic-box__size2{
+  font-size: 24px;
+  font-family: $fontFamily;
+  color: rgb(35, 35, 35);
+  line-height: 1.25;
+  text-align: left;
+  font-weight: bold;
+  padding-left: 655px;
+  margin-bottom: 275px;
+}
+
+
+.archimatic-box__see{
+  color: black;
+  font-size: 12px;
+  font-family: $fontFamilyD;
+margin-bottom: 105px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1;
+  padding-left: 190px;
+
+}
+.archimatic-box__content{
+  color: black;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.archimatic-box__content__title{
+  font-size: 24px;
+  font-family: $fontFamily;
+  color: rgb(35, 35, 35);
+  line-height: 1.25;
+  text-align: left;
+  margin-bottom: 58px;
+}
+.archimatic-box__content__content{
+  font-size: 16px;
+  font-family: "Myriad Pro";
+  color: rgb(35, 35, 35);
+  line-height: 1.5;
+  text-align: left;
+  max-width: 255px;
+  margin-bottom: 65px;
+}
+.archimatic-box__content__title1{
+  font-size: 24px;
+  font-family: $fontFamily;
+  color: rgb(35, 35, 35);
+  line-height: 1.25;
+  text-align: left;
+  margin-bottom: 28px;
+
+
+}
+.archimatic-box__footer{
+position: relative;
+  color: black;
+}
+
+.archimatic-box__footer__img{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.archimatic-box__footer__content{
+
+  padding-top: 135px;
+}
+.archimatic-box__footer__content__img{
+  margin-bottom: 30px;
+  margin-left: 480px;
+  text-align: center;
+}
+
+.archimatic-box__footer__content__title{
+  font-size: 16px;
+  font-family: "Myriad Pro";
+  color: rgb(35, 35, 35);
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+
+.archimatic-box__footer__content__content {
+  font-size: 12px;
+  font-family: "Myriad Pro";
+  color: rgb(35, 35, 35);
+  text-transform: uppercase;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 95px;
+}
+
+.as{
+  position: absolute;
+  left: 200px;
+}
+
+.mydots {
+  position: absolute;
+  bottom: 395px;
+left: 800px;
+  list-style: none;
+
+}
+.mydots li {
+  display: inline-block;
+  text-indent: -9999px;
+  width: 9px;
+  height: 9px;
+  margin-right: 35px;
+  border-radius: 14px;
+  border: 1px solid $black;
+  background: $black;
+}
+

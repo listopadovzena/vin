@@ -1,0 +1,141 @@
+.products{
+background: #191919;
+
+}
+.happy{
+ position: relative;
+}
+.happy-img{
+  position: absolute;
+  left: 50%;
+top:215px;
+  transform: translateX(-50%);
+}
+.layer{
+position: relative;
+}
+.layer-img{
+  position: absolute;
+  top: -305px;
+  left: 50%;
+
+  transform: translateX(-50%);
+}
+
+.products-building{
+  margin-top: 170px;
+}
+
+.products-building__title{
+  margin-bottom: 25px;
+  font-size: 24px;
+  font-family: $fontFamily;
+
+  line-height: 1.25;
+  text-align: left;
+}
+
+.products-building__content{
+  max-width: 390px;
+  margin-bottom: 80px;
+  font-size: 16px;
+  font-family: "Myriad Pro";
+
+  line-height: 1.5;
+  text-align: left;
+}
+
+.products-project{
+  position: relative;
+  margin-left: 780px;
+  z-index: 999999999;
+}
+.products-project__title{
+  margin-bottom: 25px;
+  font-size: 24px;
+  font-family: $fontFamily;
+
+  line-height: 1.25;
+  text-align: left;
+}
+.products-project__content{
+  max-width: 390px;
+  margin-bottom: 80px;
+  font-size: 16px;
+  font-family: "Myriad Pro";
+
+  line-height: 1.5;
+  text-align: left;
+}
+
+.products-city__title{
+  margin-bottom: 25px;
+  font-size: 24px;
+  font-family: $fontFamily;
+
+  line-height: 1.25;
+  text-align: left;
+}
+.products-city__content{
+  max-width: 390px;
+  margin-bottom: 195px;
+  font-size: 16px;
+  font-family: "Myriad Pro";
+
+  line-height: 1.5;
+  text-align: left;
+}
+.win{
+  text-align: center;
+}
+.win-title{
+  font-size: 12px;
+  font-family: $fontFamilyD;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.5;
+  text-align: center;
+
+  margin-bottom: 55px;
+}
+
+
+.products-footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.products-footer__title{
+  margin-bottom: 30px;
+  margin-top: 40px;
+  font-size: 24px;
+  font-family: $fontFamily;
+
+  line-height: 1.25;
+  text-align: left;
+}
+.products-footer__content{
+  max-width: 245px;
+  font-size: 16px;
+  font-family: "Myriad Pro";
+margin-bottom: 60px;
+  line-height: 1.5;
+  text-align: left;
+}
+.products-input{
+text-align: center;
+}
+.products-input__input{
+color: $white;
+background: none;
+  border-bottom: 2px solid white;
+  border-top:none ;
+  border-left:none ;
+  border-right:none ;
+cursor:pointer;
+margin-bottom: 100px;
+  padding-bottom: 25px;
+
+
+}

@@ -1,0 +1,13 @@
+.scrollup{
+  width:81px;
+  height:81px;
+z-index: 999999999999;
+  position:fixed;
+  bottom:45px;
+  right:50%;
+  transform: translateX(-50%);
+  display: none;
+  text-indent:-9999px;
+  background:url(http://listopadov.biz.ua/i/arrow.png) no-repeat 0 center;
+}
+

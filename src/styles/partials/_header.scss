@@ -1,0 +1,109 @@
+.header{
+  background: url("../img/bg.png") no-repeat;
+  background-size:cover ;
+}
+.container{
+  max-width: 1200px;
+  margin-left:40px;
+  padding: 0 10px;
+}
+
+body {
+  font-size: 14px;
+  color: $white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: $white;
+}
+
+.box-logo{
+  display: flex;
+  justify-content: space-between;
+
+
+}
+.box-logo__left{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.box-logo__right{
+  margin-top: 48px;
+  position: relative;
+  margin-bottom: 360px;
+}
+.bb{
+  border: 1px solid white;
+  border-radius: 50px;
+  position: absolute;
+  top:-15px;
+  height: 60px;
+  left: 7px;
+  width: 60px;
+}
+.logo-title{
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+
+  line-height: 2.5;
+}
+.en-left{
+  border: none;
+  background: none;
+  color: $white;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+ .ru-left:hover{
+
+
+  background: black;
+
+
+
+}
+.en-left:hover{
+
+
+  background: black;
+
+}
+.ru-left{
+  border: none;
+  background: none;
+  color: $white;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.left-img{
+  margin-bottom: 60px;
+}
+.input-left{
+  text-transform: uppercase;
+}
+
+.box-title__title{
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.box-title__content{
+  font-size: 50px;
+
+margin-bottom: 25px;
+  text-transform: uppercase;
+  line-height: 0.6;
+  text-align: left;
+}
+.box-title{
+  margin-bottom: 90px;
+  margin-left: 700px;
+}
